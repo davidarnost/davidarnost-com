@@ -7,18 +7,24 @@ p {
 }
 
 .quickfact {
-    border-radius: 10px;
-    border: solid;
-    border-width: 2px;
-    border-color: transparent;
-    transition: all .4s, ease-in-out;
+    transition: all 0.4s, ease-in-out;
     background-color: var(--bs-secondary-bg);
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
 }
 
 .quickfact:hover {
-    box-shadow: 0 4 12px -2px rgba(20,27,201,.05);
-    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%);
-    border: solid;
-    border-width: 2px;
-    border-color: #adb5bd;
+    box-shadow: var(--bs-box-shadow);
+    background-color: #fd976d50;
+    border-color: #fd976d80;
+}
+
+.quickfact-icon {
+    color: #fd976d;
+    font-size: 2.75rem;
+}
+
+.quickfact:hover .quickfact-icon {
+    font-size: 3rem;
 }
