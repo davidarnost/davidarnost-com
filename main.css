@@ -22,9 +22,21 @@ p {
 
 .quickfact-icon {
     color: #fd976d;
-    font-size: 2.75rem;
+    font-size: calc(1.4rem + 1.8vw)
 }
 
 .quickfact:hover .quickfact-icon {
-    font-size: 3rem;
+    font-size: calc(1.425rem + 2.1vw)
+}
+
+@media(min-width: 1200px) {
+    .quickfact:hover .quickfact-icon {
+        font-size: 3rem
+    }
+}
+
+@media(min-width: 1200px) {
+    .quickfact-icon {
+        font-size: 2.75rem
+    }
 }
