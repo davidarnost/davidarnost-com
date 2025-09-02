@@ -16,12 +16,12 @@ p {
 
 .quickfact:hover {
     box-shadow: var(--bs-box-shadow);
-    background-color: #fd976d50;
-    border-color: #fd976d80;
+    background-color: #26D2EC50;
+    border-color: #26D2EC80;
 }
 
 .quickfact-icon {
-    color: #fd976d;
+    color: #26D2EC;
     font-size: calc(1.4rem + 1.8vw)
 }
 
